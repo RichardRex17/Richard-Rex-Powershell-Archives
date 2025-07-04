@@ -1,0 +1,35 @@
+
+---
+
+## 🛠️ Requirements
+
+- ✅ Windows 10/11 or Windows Server
+- ✅ PowerShell 5.1 or higher
+- ✅ Execution policy: `RemoteSigned` or less
+- ✅ Run as Administrator (recommended for scanning all user profiles)
+
+---
+
+## 📌 Usage
+
+### Step 1: Configure Output Path
+Edit the script to set the location where reports will be saved:
+$CustomOutputDirectory = "your centralized location"
+
+
+##### Step 2: Run the Script
+1. Run the script in PowerShell for manual installation.
+2. Make sure to run it with administrative privileges to ensure it can access all user profiles.
+3. The script will generate a report in the specified output directory.
+4. Review the report for Oracle Java installations across user profiles.
+5. Optionally, you can schedule this script to run periodically to keep track of Java installations.
+6. If you need to run it on multiple machines, consider using a deployment tool like SCCM, Intune, or WS1. 
+7. Ensure that the script is tested in a controlled environment before deploying widely.
+8. Monitor the output for any errors or issues during execution.
+9. If you encounter issues, check the PowerShell execution policy and ensure it allows script execution.
+10. For troubleshooting, you can add additional logging or error handling in the script.
+11. If you need to customize the script further, consider adding parameters for flexibility, such as specifying user profiles or output formats.
+12. Always keep the script updated with the latest requirements and best practices for security and performance.
+13. If you need to share the script, consider documenting it with comments for clarity.
+14. If you plan to use this script in a production environment, ensure it complies with your organization's security policies.
+15. Regularly review and update the script to adapt to changes in Oracle Java installation paths or methods.
