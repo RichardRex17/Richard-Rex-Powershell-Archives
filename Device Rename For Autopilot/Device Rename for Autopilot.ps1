@@ -116,8 +116,7 @@ $CountryCodeMapping = @{
     "CA" = "Canada"
     "US" = "United States"
 
-    <# Add more mappings as and when needed. This country list was refered and taken from Client Symrise and Diana OU.
-    If you want use the Select region settings from OOBE, append the contry code or try to import all the country list on the above code
+    <# If you want use the Select region settings from OOBE, append the contry code or try to import all the country list on the above code
     
     Refer the ISO 3166 Codes for Countries  :https://www.iban.com/country-codes
     
